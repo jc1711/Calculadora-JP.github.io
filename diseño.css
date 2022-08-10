@@ -1,0 +1,87 @@
+/* Body del documento general */ 
+
+body {
+    background-color: ghostwhite;
+    margin-top: 25px;
+}
+
+/* titulo h1 */ 
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: monospace;
+    background-color: #b6ecea;
+    margin:0 auto;
+    padding: 10px;
+    width: 260px;
+    border-radius: 2rem 2rem 0 0;
+}
+
+/* Cuerpo de la calculadora */
+
+.Calculadora {
+    display: block;
+    margin:0 auto;
+    padding: 20px;
+    background-color: #b6ecea;
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    margin-top:0%;
+}
+
+/* Botones generales */ 
+
+.Calculadora td button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+/* Panel de resultado */
+
+#resultado {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:white;
+    border-radius: 25px;
+    overflow: scroll;
+}
+
+/* Colores de los botones */
+tr.one button:hover {
+    width: 70PX;
+    height: 70px;
+    background-color: #ecb6bd;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+tr.two button:hover {
+    background-color: #d1e7ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+tr.tree button:hover {
+    background-color: #fee7d7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+tr.four button:hover {
+    background-color:#e3d9f7;
+    border-radius: 10px;
+    cursor: pointer;
+}
